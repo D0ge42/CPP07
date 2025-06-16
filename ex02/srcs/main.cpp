@@ -34,7 +34,7 @@ int main()
 
 
   //################################################################################################//
-  std::cout << "\n\n\033[1;93mTrying to access -1 index of the array⛔ \033[0m" << std::endl;
+  std::cout << "\n\n\033[1;93mTrying to access -42 index of the array⛔ \033[0m" << std::endl;
   try
   {
     std::cout << item[-42] << std::endl;
